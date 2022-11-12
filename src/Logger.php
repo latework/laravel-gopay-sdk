@@ -17,4 +17,9 @@ class Logger implements DefLogger
     {
         \GoPay::logHttpCommunication($request, $response);
     }
+
+    public function log(string $message)
+    {
+        //
+    }
 }
