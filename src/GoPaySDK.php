@@ -28,6 +28,7 @@ class GoPaySDK
             'clientId' => config('gopay.clientId'),
             'clientSecret' => config('gopay.clientSecret'),
             'isProductionMode' => config('gopay.productionMode'),
+            'gatewayUrl' => config('gopay.gatewayUrl'),
             'timeout' => config('gopay.timeout')
         ];
 
